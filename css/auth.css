@@ -1,9 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 #auth-page{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     font-family: Dubai;
+
 }
 .logo{
     display: flex;
@@ -50,8 +58,8 @@ padding: 1em;
 .header {
     font-weight: 300;
     color: #3f3f3f;
-    padding: 5px;
     text-align: center;
+    padding: 8px;
 }
 .header h4{
     
@@ -83,8 +91,8 @@ text-align: center;
 color: #fff;
 display: block;
 border-radius: 10px;
-margin: 6px;
-padding: 5px;
+margin: 9px;
+padding: 6px;
 border: none;
 
 
@@ -96,26 +104,43 @@ button:hover {
 
 .bottom-text{
     text-align: center;
+    padding: 15px;
+    margin: 15px;
 }
-.bottom-text .password{
-font-family: Dubai;
+.bottom-text .password
+ {
+
 font-weight: 500;
 font-size: 18px;
 color: #a71c24;
-
+padding: 5px;
+margin: 10px;
+margin-bottom: 10px;
+}
+.bottom-text .p 
+.bottom-text .password{
+    padding: 10px;
+    margin: 10px;
 }
 .bottom-text .create{
-font-family: Dubai;
+
 font-weight: bold;
 font-size: 18px;
 text-align: center;
 color: #a71c24;
+padding: 5px;
 
 }
 a {
     text-decoration: none;
     text-align: center;
     color: #a71c24;
+    
+
+  }
+  .create .password{
+      padding: 10px;
+      margin: 10px;
   }
   .footer {
     font-family: Dubai;
@@ -129,7 +154,7 @@ a {
     margin: 90px;
   }
   .footer2 {
-    font-family: Dubai;
+    
     font-weight: 500;
     font-size: 18px;
     text-align: center;
@@ -138,21 +163,44 @@ a {
     justify-content: center;
     align-items: center;
     margin:10px;
+   
   }
   .input-footer {
     
     font-weight: 500;
     font-size: 18px;
     text-align: center;
-    
+    padding: 10px;
+    margin: 10px;
+  
   }
   .input-footer p 
-  .input-footer .btn
+  
    {
-      margin: 5px;
+      margin: 10px;
 
   }
   .input-footer span {
     color: #0090ff;
     
+  }
+  .input-footer p {
+
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .btn2{
+    width: 99%;
+    height: 55px;
+    background: #a71c24;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+   
+   
   }
